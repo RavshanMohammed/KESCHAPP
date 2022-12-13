@@ -13,6 +13,12 @@ System.Console.WriteLine($"Successfully converted! {age}");
 int keschaAge = 13;
 int difference = age - keschaAge;
 System.Console.WriteLine($"The gap is {difference}");
+System.Console.WriteLine($"You are older than KESCHA {age > keschaAge}");
+System.Console.WriteLine($"You are older or equal than KESCHA {age >= keschaAge}");
+System.Console.WriteLine($"You are younger than KESCHA {age < keschaAge}");
+System.Console.WriteLine($"You are younger or equal than KESCHA {age <= keschaAge}");
+System.Console.WriteLine($"You are equal than KESCHA {age == keschaAge}");
+System.Console.WriteLine($"You are equal or unequal than KESCHA {age != keschaAge}");
 
 
 
